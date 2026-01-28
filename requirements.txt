@@ -1,0 +1,21 @@
+# MeNu Guide Knowledge Graph RAG System
+# Core dependencies for knowledge graph processing and RAG pipeline
+
+# RDF/Knowledge Graph Processing
+rdflib>=6.0.0
+
+# Embeddings and Vector Search
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+numpy>=1.21.0
+
+# LangChain Framework (for production RAG)
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
+
+# LLM Providers
+openai>=1.0.0
+
+# Utilities
+tqdm>=4.60.0
